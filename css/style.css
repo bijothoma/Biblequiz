@@ -1,0 +1,145 @@
+body {
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #ADD8E6;
+}
+#start-screen{
+    max-width: 650px;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    padding:20px;
+    border-radius:10px;
+    text-align: center;
+    background-color: #3498DB;
+    color:#fff;
+    height:550px;
+}
+#quiz-container{
+    max-width: 600px;
+    margin:0px auto;
+    padding:20px;
+    border-radius:10px;
+    text-align: center;
+    background-color: #3498DB;
+    color:#fff
+}
+
+#question-container{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#score-container{
+    margin-top:10px;
+    font-size: 20px;
+}
+
+button{
+    padding:15px;
+    cursor:pointer;
+    border: none;
+    border-radius:8px;
+    font-size:30px;
+}
+
+#next-btn,#submit-btn{
+    display: block;
+    margin:15px auto;
+    height:35px;
+    width:150px;
+    font-size:20px;
+    padding:5px;
+    border-radius:25px;
+}
+
+#next-btn{
+    background-color: rgb(104, 190, 104);
+    color:#fff;
+}
+
+#next-btn:hover{
+    background-color: rgb(112, 162, 112);
+}
+
+#submit-btn{
+    background-color: rgb(190, 104, 148);
+    color:#fff;
+}
+
+#submit-btn:hover{
+    background-color: rgb(151, 111, 144);
+}
+
+.option-label{
+    box-sizing: border-box;
+    width:50px;
+    height: 50px;
+    padding:10px; 
+    line-height: 30px;
+    font-weight: bold;
+    color:#fff;
+    font-size: 15px;
+    border:1px solid #ddd;
+    border-radius:50%;
+    margin-right:10px;
+}
+.quiz-option{
+    box-sizing:border-box;
+    flex:1;
+    padding: 15px;
+    text-align: left;
+    background-color: #3498db;
+    color:white;
+    border : 1px solid #ddd;
+    border-radius: 8px;
+    margin-top:10px;
+    font-size:25px;
+    width:calc(100%-60px);
+}
+.quiz-option:hover{
+    background-color:rgb(109, 109, 214)
+}
+
+.quiz-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quiz-option.selected{
+    background-color: black;
+
+}
+
+#timer{
+    margin:0 auto;
+    width:50px;
+    height:50px;
+    background-color:  #042e4a;
+    border-radius: 25px 25px 0 0;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2em;
+    font-size: 2rem;
+    
+}
+#title{
+    margin:0px auto;
+    height:50px;
+    width:200px;
+    text-align: center;
+    color:black;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
